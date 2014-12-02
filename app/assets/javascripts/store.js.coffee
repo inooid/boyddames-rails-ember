@@ -1,7 +1,7 @@
 # http://emberjs.com/guides/models/#toc_store
 # http://emberjs.com/guides/models/pushing-records-into-the-store/
 
-BoyddamesRailsEmber.Store = DS.Store.extend({
+BoyddamesRailsEmber.ApplicationStore = DS.Store.extend({
 
 })
 
