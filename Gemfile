@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use postgresql as the database for Active Record
@@ -42,7 +41,9 @@ gem 'unicorn-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'active_model_serializers'
+gem 'ember-rails', '~>0.14'
+gem 'ember-source', '~>1.1'
 
-gem "active_model_serializers"
-gem "ember-rails", "~>0.14"
-gem "ember-source", "~>1.1"
+# Emblem.js integration with asset pipeline (must be AFTER ember-rails gem!)
+gem 'emblem-rails'
