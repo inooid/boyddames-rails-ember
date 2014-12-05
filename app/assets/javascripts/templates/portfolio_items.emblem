@@ -1,5 +1,3 @@
 .portfolio-list
   each item in model
-    section
-      a href=item.href
-        img src=item.thumb
+    == portfolio-item item=item
