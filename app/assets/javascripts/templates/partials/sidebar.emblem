@@ -1,0 +1,9 @@
+section.title
+  a.photo href='#'
+    img src='assets/images/boyd.png' alt='Hi, I am Boyd'
+  .myself
+    h1 Boyd Dames
+    h2 UI/UX Designer
+
+p I love to make peoples lives easier with design!
+a href='#' class='btn btn-contact' Contact me
