@@ -44,6 +44,9 @@ gem 'ember-source', '~>1.1'
 # Emblem.js integration with asset pipeline (must be AFTER ember-rails gem!)
 gem 'emblem-rails'
 
+# Devise flexible authentication solution for Rails (login, etc.)
+gem 'devise'
+
 group :development do
   gem 'spring'
   gem 'annotate'
