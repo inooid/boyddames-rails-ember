@@ -43,6 +43,9 @@ GEM
     barber-emblem (0.1.1)
       barber (>= 0.4.1)
       emblem-source
+    bourbon (3.2.3)
+      sass (~> 3.2)
+      thor
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -167,6 +170,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   annotate
+  bourbon
   coffee-rails (~> 4.0.0)
   ember-rails (~> 0.14)
   ember-source (~> 1.1)
