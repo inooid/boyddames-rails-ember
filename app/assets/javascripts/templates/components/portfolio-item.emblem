@@ -1,3 +1,3 @@
 section
-  a href=item.href
+  link-to 'portfolio_item' item
     img src=item.thumb
