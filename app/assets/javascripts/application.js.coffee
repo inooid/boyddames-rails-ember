@@ -6,5 +6,5 @@
 #= require boyddames_rails_ember
 
 # for more details see: http://emberjs.com/guides/application/
-window.BoyddamesRailsEmber = Ember.Application.create()
+window.App = Ember.Application.create()
 
