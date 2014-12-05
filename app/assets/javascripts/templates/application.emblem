@@ -1,2 +1,4 @@
 .container
   header = partial "partials/sidebar"
+
+  == outlet
