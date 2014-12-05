@@ -25,13 +25,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Mixins library for SASS
 gem 'bourbon'
 
-group :development do
-  gem 'spring'
-  gem 'annotate'
-  gem 'rubocop'
-  gem 'quiet_assets'
-end
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,3 +43,10 @@ gem 'ember-source', '~>1.1'
 
 # Emblem.js integration with asset pipeline (must be AFTER ember-rails gem!)
 gem 'emblem-rails'
+
+group :development do
+  gem 'spring'
+  gem 'annotate'
+  gem 'rubocop'
+  gem 'quiet_assets'
+end
