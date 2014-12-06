@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
+  # Devise routes
   devise_for :admins
+  devise_scope :admin do
+    get 'admins/login/' => 'devise/sessions#new'
+
+    get 'admins/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
+    put 'admins' => 'devise/registrations#update', :as => 'user_registration'
+
+    get '/admins/sign_out' => 'devise/sessions#destroy'
+  end
+
+  # Ember app routes
   root to: 'assets#index'
   get 'assets/index'
 
