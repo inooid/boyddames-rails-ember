@@ -1,2 +1,4 @@
-class Admin::PortfolioItemsController < ApplicationController
+class Admin
+  class PortfolioItemsController < ApplicationController
+  end
 end
