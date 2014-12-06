@@ -2,12 +2,17 @@ Rails.application.routes.draw do
   # Devise routes
   devise_for :admins
   devise_scope :admin do
-    get 'admins/login/' => 'devise/sessions#new'
+    get 'admin/login/' => 'devise/sessions#new'
 
-    get 'admins/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
-    put 'admins' => 'devise/registrations#update', :as => 'user_registration'
+    get 'admin/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
+    put 'admin' => 'devise/registrations#update', :as => 'user_registration'
 
-    get '/admins/sign_out' => 'devise/sessions#destroy'
+    get '/admin/sign_out' => 'devise/sessions#destroy'
+  end
+
+  namespace :admin do
+    # get '/' => 'admins#index'
+    resources :portfolio_items
   end
 
   # Ember app routes
