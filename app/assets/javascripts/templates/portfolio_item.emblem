@@ -1,4 +1,11 @@
 article.portfolio-item
-  .heading style="background: {{unbound header_color}}"
+  .heading style="background: {{unbound header_color}} url({{unbound header_image}})"
     .logo
       img src=header_logo
+    ul.tags
+      li Design
+      li Ruby on Rails
+      li Animations
+
+  .content
+    h1 = content
