@@ -35,6 +35,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "Design",
+      "Ruby on Rails",
+      "Animations"
     ]
   },
   {
@@ -43,11 +48,11 @@ portfolioItems = [
     desc:     'Nederlandse Aardolie Maatschappij iPad-app',
     thumb:    'assets/portfolio_items/nam_thumb.png',
     header_color: '#364F53',
-    header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
-    header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_image: 'assets/portfolio_items/header/nam_header.png',
+    header_logo:  'assets/portfolio_items/header/nam_logo.png',
     header_logo_size: {
-      width: 148,
-      height: 53
+      width: 79,
+      height: 106
     },
     content: [
       {
@@ -58,6 +63,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "iOS app",
+      "UX",
+      "Animations"
     ]
   },
   {
@@ -81,6 +91,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "Design",
+      "Ruby on Rails",
+      "Animations"
     ]
   },
   {
@@ -104,6 +119,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "Design",
+      "Ruby on Rails",
+      "Animations"
     ]
   },
   {
@@ -127,6 +147,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "Design",
+      "Ruby on Rails",
+      "Animations"
     ]
   },
   {
@@ -150,6 +175,11 @@ portfolioItems = [
           I am probably livestreaming and trying to entertain some people.',
         page_content: '<p>Test</p>'
       }
+    ],
+    tags: [
+      "Design",
+      "Ruby on Rails",
+      "Animations"
     ]
   }
 ]
