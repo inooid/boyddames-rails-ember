@@ -1,3 +1,4 @@
 article.portfolio-item
-  h1 = name
-  h2 = desc
+  .heading style="background: {{unbound header_color}}"
+    .logo
+      img src=header_logo
