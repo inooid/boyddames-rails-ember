@@ -76,11 +76,11 @@ portfolioItems = [
     desc:     'iPad- & Webapp for health care',
     thumb:    'assets/portfolio_items/blossom_thumb.png',
     header_color: '#364F53',
-    header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
-    header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_image: 'assets/portfolio_items/header/blossom_header.png',
+    header_logo:  'assets/portfolio_items/header/blossom_logo.png',
     header_logo_size: {
-      width: 148,
-      height: 53
+      width: 108,
+      height: 130
     },
     content: [
       {
