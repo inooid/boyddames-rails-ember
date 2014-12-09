@@ -1,6 +1,6 @@
 article.portfolio-item
   .heading style="background: {{unbound header_color}} url({{unbound header_image}})"
-    .logo
+    .logo style="margin-left: -{{unbound header_logo_size.width }}px; margin-top: -{{unbound header_logo_size.height }}px"
       img src=header_logo
     ul.tags
       li Design
@@ -8,4 +8,5 @@ article.portfolio-item
       li Animations
 
   .content
-    h1 = content
+    / each section in content
+    /   h1 content[0].title
