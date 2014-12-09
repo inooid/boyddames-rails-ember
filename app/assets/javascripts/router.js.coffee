@@ -22,6 +22,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
@@ -41,6 +45,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
@@ -60,6 +68,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
@@ -79,6 +91,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
@@ -98,6 +114,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
@@ -117,6 +137,10 @@ portfolioItems = [
     header_color: '#364F53',
     header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
     header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_logo_size: {
+      width: 148,
+      height: 53
+    },
     content: [
       {
         title: 'Entertaining part of me.',
