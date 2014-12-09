@@ -3,9 +3,8 @@ article.portfolio-item
     .logo style="margin-left: -{{unbound header_logo_size.width }}px; margin-top: -{{unbound header_logo_size.height }}px"
       img src=header_logo
     ul.tags
-      li Design
-      li Ruby on Rails
-      li Animations
+      each tag in tags
+        li = tag
 
   .content
     / each section in content
