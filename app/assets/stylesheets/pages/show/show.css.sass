@@ -7,8 +7,7 @@
   .heading
     height: 400px
     position: relative
-    background-position: center
-    background-size: cover
+    background-position: left center
 
     .logo
       position: absolute
@@ -30,6 +29,23 @@
         padding: 10px 15px
         margin-right: 10px
         display: inline-block
+
+        &:hover
+          border: 2px solid rgba(255, 255, 255, 1)
+
+    .back
+      position: absolute
+      top: 40px
+      left: 40px
+      text-align: left
+
+      a
+        border: 2px solid rgba(255, 255, 255, 0.5)
+        @include border-top-radius(5px)
+        @include border-bottom-radius(5px)
+        padding: 10px 15px
+        color: #fff
+        text-decoration: none
 
         &:hover
           border: 2px solid rgba(255, 255, 255, 1)

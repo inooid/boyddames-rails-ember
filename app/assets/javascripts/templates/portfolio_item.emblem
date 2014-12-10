@@ -5,6 +5,8 @@ article.portfolio-item
     ul.tags
       each tag in tags
         li = tag
+    .back
+      | #{link-to 'portfolio_items' | Back }
 
   .content
     / each section in content
