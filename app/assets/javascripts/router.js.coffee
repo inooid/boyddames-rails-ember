@@ -37,7 +37,7 @@ portfolioItems = [
       }
     ],
     tags: [
-      "Design",
+      "Webdesign",
       "Ruby on Rails",
       "Animations"
     ]
@@ -66,7 +66,7 @@ portfolioItems = [
     ],
     tags: [
       "iOS app",
-      "UX",
+      "User Testing",
       "Animations"
     ]
   },
@@ -75,7 +75,7 @@ portfolioItems = [
     name:     'Blossom',
     desc:     'iPad- & Webapp for health care',
     thumb:    'assets/portfolio_items/blossom_thumb.png',
-    header_color: '#364F53',
+    header_color: '#75A6CE',
     header_image: 'assets/portfolio_items/header/blossom_header.png',
     header_logo:  'assets/portfolio_items/header/blossom_logo.png',
     header_logo_size: {
@@ -93,9 +93,8 @@ portfolioItems = [
       }
     ],
     tags: [
-      "Design",
-      "Ruby on Rails",
-      "Animations"
+      "Webdesign",
+      "User Testing"
     ]
   },
   {
@@ -103,12 +102,12 @@ portfolioItems = [
     name:     'WatVoorChips',
     desc:     'HTML5 app for picking the right flavoured crisps',
     thumb:    'assets/portfolio_items/watvoorchips_thumb.png',
-    header_color: '#364F53',
-    header_image: 'assets/portfolio_items/header/justdrawcats_header.png',
-    header_logo:  'assets/portfolio_items/header/justdrawcats_logo.png',
+    header_color: '#DA392A',
+    header_image: 'assets/portfolio_items/header/watvoorchips_header.png',
+    header_logo:  'assets/portfolio_items/header/watvoorchips_logo.png',
     header_logo_size: {
-      width: 148,
-      height: 53
+      width: 246,
+      height: 56
     },
     content: [
       {
@@ -123,7 +122,8 @@ portfolioItems = [
     tags: [
       "Design",
       "Ruby on Rails",
-      "Animations"
+      "JavaScript",
+      "Animation"
     ]
   },
   {
